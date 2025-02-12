@@ -1,0 +1,113 @@
+# kusano.okasya
+@charset "UTF-8";
+
+html {
+  font-family; sans-serif;
+}
+html * {
+  box-sizing: border-box;
+}
+body {
+  margin 0 0 0 0;
+  background-color: #eeece9;
+}
+.wrapper {
+  margin: 0 auto 0 auto;
+  max-width: 960px;
+}
+.nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+.nav a:link{
+  color: #3c454d;
+  text-decoration: none;
+}
+.nav a:visited{
+  color: #3c454d;
+  text-decoration: none;
+}
+.nav a:hover{
+  color: #7b8dac;
+  text-decoration: none;
+}
+.nav a:active{
+  color: #5a9bc0;
+  text-decoration: none;
+}
+h1{
+  color: #3f5170;
+}
+h2 {
+  color: #3f5170;
+  font-size: 22px;
+  border-bottom: 3px dotted #3f5170;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+p{
+  line-height: 1.6;
+}
+a:link{
+  color: #d25833;
+}
+a:visited{
+  color: #0000cd;
+}
+a:hover{
+  color: #e3937a;
+}
+a:active{
+  color: #ff6a3b;
+}
+img{
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+.news-item{
+  margin: 0;
+}
+.photo {
+  float: left;
+  padding: 0 1em 1em 0;
+}
+.clear{
+  clear: both;
+}
+@media  {max-width: 767px){
+  .wrapper{
+    margin: 0 8px;
+  }
+}
+.photo{
+  margin: 10px 0;
+}
+div {
+  clear: both;
+}
+form div{
+  padding: 12px;
+  border-bottom: 1px dashed #bec2c7;
+}
+select{
+  width: 30em;
+}
+input[name="subject"]{
+  width: 30em;
+}
+textarea{
+  width: 30em;
+  height: 6em;
+}
+input[type="submit"]{
+  margin: 20px 0;
+  width: 30em;
+}
